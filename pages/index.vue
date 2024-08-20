@@ -25,7 +25,7 @@
     <Navigation/>
     <div>
       <div class="container">
-        <div class="grid min-h-screen pt-[75px] gap-x-[45px] items-center md:grid-cols-2 px-[10px]">
+        <div class="grid min-h-screen pt-[75px] md:pt-0 gap-[45px] items-center md:grid-cols-2 px-[10px]">
           <div class="">
             <h3 class="bg-gradient-to-r from-[#59749E] from-0% via-[#EBEBF3] via-50% to-[#59749E] to-100% font-medium text-2xl text-transparent bg-clip-text">
               &lt;Hello World/&gt;
