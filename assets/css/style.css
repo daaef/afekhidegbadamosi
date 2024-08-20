@@ -149,6 +149,10 @@ main {
 }
 
 /* Header */
+header {
+    background-image: url(/header-bg.png);
+    background-size: cover;
+}
 .codrops-header {
     position: relative;
     z-index: 100;
