@@ -22,17 +22,23 @@
       </symbol>
     </svg>-->
   <header>
-    <Navigation />
+    <Navigation/>
     <div>
       <div class="container">
-        <div class="grid min-h-screen gap-x-[20px] items-center grid-cols-2 px-[10px]">
+        <div class="grid min-h-screen pt-[75px] gap-x-[45px] items-center md:grid-cols-2 px-[10px]">
           <div class="">
-            <h3 class="bg-gradient-to-r from-blue-500 to-red-400 text-transparent bg-clip-text">
+            <h3 class="bg-gradient-to-r from-[#59749E] from-0% via-[#EBEBF3] via-50% to-[#59749E] to-100% font-medium text-2xl text-transparent bg-clip-text">
               &lt;Hello World/&gt;
             </h3>
+            <p class="mt-4 text-2xl font-light">
+              <span class="text-big-stone-200">I’m Afekhide, a passionate </span>
+              <span class="text-big-stone-400">Frontend Developer with a love </span>
+              <span class="text-big-stone-200">for creating pixel-perfect UIs.</span>
+              <span class="text-big-stone-400"> Explore my <a href="#" class="font-semibold text-big-stone-200">works</a> and get Inspired.</span>
+            </p>
           </div>
           <div class="w-full">
-            <img class="w-full" src="/afe-paaatterns.png" alt="User Image">
+            <img class="w-full h-[70vh] object-contain" src="/afe-paaatterns.png" alt="User Image">
           </div>
         </div>
       </div>

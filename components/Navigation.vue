@@ -3,7 +3,8 @@
     <div class="container">
       <div class="px-[10px] h-[64px] flex justify-between relative items-center">
         <nuxt-link to="/" class="relative z-50">
-          <img src="/full-logo.svg" alt="Full logo" class="h-[32px]">
+          <img src="/full-logo.svg" alt="Full logo" class="h-[32px] hidden dark:md:block">
+          <img src="/favicon.png" alt="Full logo" class="h-[32px] md:hidden block">
         </nuxt-link>
         <div class="hamburger js-hover" ref="elmHamburger" @click.prevent="triggerAnimation">
           <div class="hamburger__line hamburger__line--01">
