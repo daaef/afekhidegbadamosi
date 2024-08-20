@@ -1,5 +1,5 @@
 {
-  "name": "content-wind-template",
+  "name": "afekhide-gbadamosi-portfolio",
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
@@ -8,8 +8,28 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
+    "@iconify-json/ph": "^1.1.14",
+    "@iconify-json/radix-icons": "^1.1.15",
+    "@iconify-json/simple-icons": "^1.1.113",
+    "@nuxt/content": "^2.13.2",
+    "@nuxt/icon": "^1.4.5",
     "@nuxthq/studio": "^2.0.3",
-    "content-wind": "latest",
-    "nuxt": "latest"
-  }
+    "@nuxtjs/color-mode": "^3.4.2",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "nuxt": "latest",
+    "shadcn-nuxt": "^0.10.4"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "d3-ease": "^3.0.1",
+    "lucide-vue-next": "^0.427.0",
+    "radix-vue": "^1.9.4",
+    "tailwind-gradients": "^1.0.1",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.5.4"
+  },
+  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247"
 }
