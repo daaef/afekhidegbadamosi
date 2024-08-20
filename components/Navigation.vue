@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="global-menu container">
-            <div class="global-menu__wrap w-full" ref="gNavItems">
+            <div class="global-menu__wrap px-[10px] w-full" ref="gNavItems">
               <a class="global-menu__item global-menu__item--demo-1" href="#">Home</a>
               <a class="global-menu__item global-menu__item--demo-1" href="#">About</a>
               <a class="global-menu__item global-menu__item--demo-1" href="#">Projects</a>
