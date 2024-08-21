@@ -35,7 +35,9 @@ export default defineNuxtConfig({
         '@nuxt/icon',
         "@nuxtjs/tailwindcss",
         "@nuxtjs/color-mode",
+        'nuxt-anchorscroll',
     ],
+
     shadcn: {
         /**
          * Prefix for all the imported component

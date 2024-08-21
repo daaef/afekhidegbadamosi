@@ -21,7 +21,7 @@
         </div>
       </div>
     </div>
-    <nuxt-link :to="{ path: '/', hash: '#main' }" class="bottom-[25px] right-[8px] animate-bounce absolute">
+    <nuxt-link :to="{ path: '/', hash: '#main' }" @click="scrollToAnchor('main')" class="bottom-[25px] right-[8px] animate-bounce absolute">
       <Icon name="ph:arrow-down" class="text-3xl text-big-stone-400" />
     </nuxt-link>
   </header>
@@ -30,6 +30,16 @@
 </template>
 
 <script setup>
+
+const { scrollToAnchor, scrollToTop } = useAnchorScroll({
+  toTop: {
+    scrollOptions: {
+      behavior: 'smooth',
+      offsetTop: 0,
+    }
+  },
+})
+
 onMounted(() => {
   document.body.classList.add('render')
   document.documentElement.classList.add('smooth-scroll')

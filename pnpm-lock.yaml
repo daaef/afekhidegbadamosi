@@ -66,6 +66,9 @@ importers:
       nuxt:
         specifier: latest
         version: 3.12.4(@parcel/watcher@2.4.1)(@types/node@22.3.0)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.20.0)(terser@5.31.6)(typescript@5.5.4)(vite@5.4.0(@types/node@22.3.0)(terser@5.31.6))
+      nuxt-anchorscroll:
+        specifier: ^1.0.3
+        version: 1.0.3(magicast@0.3.4)(rollup@4.20.0)
       shadcn-nuxt:
         specifier: ^0.10.4
         version: 0.10.4(magicast@0.3.4)(rollup@4.20.0)
@@ -2908,6 +2911,9 @@ packages:
     resolution: {integrity: sha512-6vRdiXTw9SajEQOUi6Ze/XaIXzy1q/sD5UqHQSv3yqTu7Pot5S7fEihNXV8LpcgLz+9HzjVt70r7jYe7R99c2w==}
     engines: {node: ^16.10.0 || >=18.0.0}
     hasBin: true
+
+  nuxt-anchorscroll@1.0.3:
+    resolution: {integrity: sha512-f/1XzEvaolgsh+V0CgutcJozlBE5iLkp+oF7z/ZJCYMXQrTrPmpe8HnM8WlxTLHjAdFw09jx7dQ5oGQwHZt5tw==}
 
   nuxt-component-meta@0.6.6:
     resolution: {integrity: sha512-Y5/tuZuZOlD4GluAjcTU6JlhtEeg7/92VEfoV814t2uTuZK+b9RokJeGtrMotXuCJ4vuT1Is7M+pkPm+vY/tXA==}
@@ -7568,6 +7574,14 @@ snapshots:
   nuxi@3.12.0:
     optionalDependencies:
       fsevents: 2.3.3
+
+  nuxt-anchorscroll@1.0.3(magicast@0.3.4)(rollup@4.20.0):
+    dependencies:
+      '@nuxt/kit': 3.12.4(magicast@0.3.4)(rollup@4.20.0)
+    transitivePeerDependencies:
+      - magicast
+      - rollup
+      - supports-color
 
   nuxt-component-meta@0.6.6(magicast@0.3.4)(rollup@4.20.0):
     dependencies:
