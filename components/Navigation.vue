@@ -12,7 +12,7 @@
             aria-label="Theme"
             :ui="{ rounded: 'rounded-full' }"
             type="link"
-            class="absolute left-[50%] translate-x-[-50%]"
+            class="absolute left-[50%] translate-x-[-50%] z-[1000]"
             @click="isDark = !isDark"
         />
         <div class="hamburger dark:bg-white bg-[#EAEDF4] js-hover" ref="elmHamburger" @click.prevent="triggerAnimation">
