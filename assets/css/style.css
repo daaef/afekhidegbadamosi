@@ -251,7 +251,8 @@ a.demo--current {
     align-items: center;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     pointer-events: none;
     z-index: 100;
 }
