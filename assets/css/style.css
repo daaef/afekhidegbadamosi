@@ -26,9 +26,9 @@ body {
     --color-link-hover: #2735da;
     --color-info: #fff;
     --color-main-bg: #171619;
-    --path-fill-1: rgba(168, 183, 209, 0.7);
-    --path-fill-2: rgba(89, 116, 158, 0.7);
-    --path-fill-3: rgba(19, 19, 29, 0.7);
+    --path-fill-1: rgba(241, 101, 41, 0.7);
+    --path-fill-2: rgba(51, 169, 220, 0.7);
+    --path-fill-3: rgba(228, 231, 239, 0.7);
     --color-title: #fff;
     --font-family-title: 'Montserrat', sans-serif;
     --font-size-title: 7vmax;
@@ -42,6 +42,7 @@ body {
     --button-circle: #6b6b6b;
     --button-line: #222;
 }
+
 .dark {
     --color-text: #fff;
     --color-bg: #ddd;
@@ -56,7 +57,7 @@ body {
     --font-family-title: 'Montserrat', sans-serif;
     --font-size-title: 7vmax;
     --font-weight-title: 700;
-    --color-menu: #EAEDF4;
+    --color-menu: #1A5497;
     --color-menu-hover: #ffffff;
     --font-family-menu: 'Montserrat', sans-serif;
     --font-size-menu: 1.8rem;
@@ -172,12 +173,12 @@ header {
     padding: 0.75em 0;
 }
 
-.info {
+/*.info {
     margin: 0 0 0 1.25em;
     font-style: italic;
     color: var(--color-info);
     font-weight: bold;
-}
+}*/
 
 .github {
     display: block;
@@ -256,7 +257,6 @@ a.demo--current {
 }
 
 .global-menu__item {
-    color: var(--color-menu);
     font-family: "Montserrat Alternates", system-ui;
     font-size: var(--font-size-menu);
     font-weight: bold;
@@ -336,7 +336,6 @@ a.demo--current {
     margin: 0;
     transition: transform 0.3s, opacity 0.3s;
     transition-timing-function: ease-in;
-    color: #A8B7D1;
     font-size: 32px;
 }
 
@@ -354,7 +353,6 @@ a.demo--current {
     height: 8px;
     width: 100px;
     border-radius: 25px;
-    background: #A8B7D1;
     transform: translateX(100%);
     pointer-events: none;
     opacity: 0;
@@ -459,25 +457,24 @@ a.demo--current {
 }
 
 .hamburger {
-    width: 64px;
-    height: 64px;
+    width: 54px;
+    height: 54px;
     display: block;
-    position: relative;
     cursor: pointer;
     position: absolute;
     top: 50%;
     right: 10px;
     z-index: 110;
     border-radius: 50%;
-    background-color: var(--button-bg);
     pointer-events: auto;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     transform: translateY(-50%);
+    transition: all .3s ease-in-out;
 }
 
 .hamburger::after {
-    width: 64px;
-    height: 64px;
+    width: 54px;
+    height: 54px;
     box-sizing: border-box;
     content: '';
     display: block;
@@ -485,14 +482,9 @@ a.demo--current {
     top: 0;
     left: 0;
     pointer-events: none;
-    border: 4px solid var(--button-circle);
+    /*border: 4px solid var(--button-circle);*/
     border-radius: 50%;
-    -webkit-animation-duration: 1.2s;
-    animation-duration: 1.2s;
-    -webkit-animation-name: intervalHamburgerBorder;
-    animation-name: intervalHamburgerBorder;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
+    transition: all .3s ease-in-out;
 }
 
 .hamburger__line {
@@ -535,31 +527,34 @@ a.demo--current {
 .hamburger__line--03,
 .hamburger__line--cross01,
 .hamburger__line--cross02 {
-    left: 18px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .hamburger__line--01 {
-    top: 24.6px;
+    top: 19.6px;
 }
 
 .hamburger__line--02,
 .hamburger__line--cross01,
 .hamburger__line--cross02 {
-    top: 31px;
+    top: 26px;
 }
 
 .hamburger__line--03 {
-    top: 37.4px;
+    top: 32.4px;
 }
 
 .hamburger__line--cross01 {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
+    left: 14px;
 }
 
 .hamburger__line--cross02 {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
+    left: 15px;
 }
 
 .hamburger__line {

@@ -1,0 +1,8 @@
+{
+  "name": "SenexPay",
+  "url": "https://senexpay.com",
+  "stack": ["vue", "nuxt", "tailwind", "figma"],
+  "apps": ["Web Application", "Dashboard", "Admin Portal"],
+  "logo": "senexpay",
+  "role": "Frontend Developer"
+}

@@ -24,6 +24,10 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      'montserrat': ['Montserrat', 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+      'montserrat-alternates': ['Montserrat Alternates', 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",

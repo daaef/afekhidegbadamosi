@@ -69,6 +69,5 @@
 }
 
 body {
-  background: hsl(var(--background));
-  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.015) -7%, rgba(7, 7, 20, 0.0105) 49%, rgba(255, 255, 255, 0.015) 100%);
+  background: hsl(var(--background)) linear-gradient(90deg, rgba(255, 255, 255, 0.015) -7%, rgba(7, 7, 20, 0.0105) 49%, rgba(255, 255, 255, 0.015) 100%);
 }

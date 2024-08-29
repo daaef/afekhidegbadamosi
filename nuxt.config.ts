@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     app: {
         head: {
             link: [
-                {rel: "icon", type: "image/x-icon", href: "/favicon.ico"},
+                {rel: "icon", type: "image/x-icon", href: "/favicon2.png"},
                 {
                     rel: "preconnect",
                     href: "https://fonts.googleapis.com",
@@ -30,25 +30,11 @@ export default defineNuxtConfig({
     css: ['~/assets/css/style.css', '~/assets/css/pater.css'],
     modules: [
         '@nuxthq/studio',
-        'shadcn-nuxt',
         '@nuxt/content',
-        '@nuxt/icon',
-        "@nuxtjs/tailwindcss",
-        "@nuxtjs/color-mode",
-        'nuxt-anchorscroll',
+        '@nuxt/ui',
+        "@nuxt/image"
     ],
 
-    shadcn: {
-        /**
-         * Prefix for all the imported component
-         */
-        prefix: '',
-        /**
-         * Directory that the component lives in.
-         * @default "./components/ui"
-         */
-        componentDir: './components/ui'
-    },
     colorMode: {
         classSuffix: ''
     },
