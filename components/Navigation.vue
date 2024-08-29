@@ -5,6 +5,16 @@
         <nuxt-link to="/" class="relative z-50">
           <logo />
         </nuxt-link>
+        <UButton
+            :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'"
+            color="gray"
+            variant="ghost"
+            aria-label="Theme"
+            :ui="{ rounded: 'rounded-full' }"
+            type="link"
+            class="absolute left-[50%] translate-x-[-50%]"
+            @click="isDark = !isDark"
+        />
         <div class="hamburger dark:bg-white bg-[#EAEDF4] js-hover" ref="elmHamburger" @click.prevent="triggerAnimation">
           <div class="hamburger__line hamburger__line--01">
             <div class="hamburger__line-in hamburger__line-in--01"></div>
@@ -51,7 +61,15 @@
 
 <script setup>
   import {useShapeOverlays} from "~/composable/useShapeOverlays";
-
+  const colorMode = useColorMode()
+  const isDark = computed({
+    get () {
+      return colorMode.value === 'dark'
+    },
+    set () {
+      colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
+    }
+  })
   const elmOverlay = ref(null)
   const elmHamburger = ref(null)
   const gNavItems = ref(null)
