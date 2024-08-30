@@ -15,21 +15,21 @@
             class="absolute left-[50%] translate-x-[-50%] z-[1000]"
             @click="isDark = !isDark"
         />
-        <div class="hamburger dark:bg-white bg-[#EAEDF4] js-hover" ref="elmHamburger" @click.prevent="triggerAnimation">
-          <div class="hamburger__line hamburger__line--01">
-            <div class="hamburger__line-in hamburger__line-in--01"></div>
+        <div class="hamburger dark:bg-white bg-[#1a5497] js-hover" ref="elmHamburger" @click.prevent="triggerAnimation">
+          <div class="hamburger__line hamburger__line--01 ">
+            <div class="hamburger__line-in hamburger__line-in--01 before:bg-white after:bg-white dark:before:bg-[#1a5497] dark:after:bg-[#1a5497]"></div>
           </div>
           <div class="hamburger__line hamburger__line--02">
-            <div class="hamburger__line-in hamburger__line-in--02"></div>
+            <div class="hamburger__line-in hamburger__line-in--02 before:bg-white after:bg-white dark:before:bg-[#1a5497] dark:after:bg-[#1a5497]"></div>
           </div>
           <div class="hamburger__line hamburger__line--03">
-            <div class="hamburger__line-in hamburger__line-in--03"></div>
+            <div class="hamburger__line-in hamburger__line-in--03 before:bg-white after:bg-white dark:before:bg-[#1a5497] dark:after:bg-[#1a5497]"></div>
           </div>
           <div class="hamburger__line hamburger__line--cross01">
-            <div class="hamburger__line-in hamburger__line-in--cross01"></div>
+            <div class="hamburger__line-in hamburger__line-in--cross01 before:bg-white after:bg-white dark:before:bg-[#1a5497] dark:after:bg-[#1a5497]"></div>
           </div>
           <div class="hamburger__line hamburger__line--cross02">
-            <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+            <div class="hamburger__line-in hamburger__line-in--cross02 before:bg-white after:bg-white dark:before:bg-[#1a5497] dark:after:bg-[#1a5497]"></div>
           </div>
         </div>
         <div class="global-menu container">

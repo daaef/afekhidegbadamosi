@@ -18,7 +18,8 @@
             </p>
           </div>
           <div class="w-full">
-            <img class="w-full md:h-[70vh] rounded-br-[88px] object-contain" src="/afe-paaatterns.png" alt="User Image">
+            <img class="w-full md:h-[70vh] dark:block hidden rounded-br-[88px] object-contain" src="/afe-paaatterns.png" alt="User Image">
+            <img class="w-full md:h-[70vh] dark:hidden rounded-br-[88px] object-contain" src="/light-paaatterns.png" alt="User Image">
           </div>
         </div>
       </div>

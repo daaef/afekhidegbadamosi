@@ -469,7 +469,7 @@ a.demo--current {
     border-radius: 50%;
     pointer-events: auto;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
-    transform: translateY(-50%);
+    transform: translateY(-50%) scale(0.75);
     transition: all .3s ease-in-out;
 }
 
@@ -506,13 +506,12 @@ a.demo--current {
 
 .hamburger__line-in::before,
 .hamburger__line-in::after {
+    content: '';
     width: 28px;
     height: 2px;
-    content: '';
     display: block;
     position: absolute;
     top: 0;
-    background-color: var(--button-line);
 }
 
 .hamburger__line-in::before {
@@ -759,9 +758,8 @@ a.demo--current {
     }
     .hamburger {
         position: fixed;
-        top: 0.5em;
         right: 32px;
-        transform: scale(0.75);
+        transform: translateY(-50%) scale(0.75);
     }
     .content {
         height: auto;
