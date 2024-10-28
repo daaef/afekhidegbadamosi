@@ -43,7 +43,7 @@
     {
       "id": 3,
       "title": "Onboardbase",
-      "description": "RESTful API for task management with authentication, task CRUD operations, and team collaboration features",
+      "description": "Onboardbase is a Local-first Hashicorp Vault and AWS Secret Manager alternative with a wider scope across cloud providers and usage detection. It's also much simpler, local-first, and collaborative to use.",
       "stack": [
         "vue",
         "tailwind"
