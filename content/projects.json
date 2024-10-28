@@ -22,8 +22,13 @@
     {
       "id": 2,
       "title": "SenexPay",
-      "description": "Mobile-responsive weather application that provides real-time weather data and 7-day forecasts using OpenWeather API",
-      "stack": ["vue", "nuxt", "tailwind", "figma"],
+      "description": "SenexPay is an African blockchain startup reimagining crypto for all currently offering fast and easy crypto exchange and wallet services.",
+      "stack": [
+        "vue",
+        "nuxt",
+        "tailwind",
+        "figma"
+      ],
       "apps": [
         "Web Application",
         "Dashboard",
@@ -32,7 +37,7 @@
       "image": "https://example.com/weather-app.jpg",
       "github": false,
       "live": "https://weather-app-demo.netlify.app",
-      "role": "Frontend",
+      "role": "Frontend Developer",
       "logo": "senexpay"
     },
     {
