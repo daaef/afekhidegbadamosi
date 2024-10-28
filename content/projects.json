@@ -1,0 +1,122 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Nigeria AirForce",
+      "description": "The Nigeria AirForce Official Website. Rebuilt for easier usage and content management",
+      "stack": [
+        "laravel",
+        "uikit",
+        "aws"
+      ],
+      "apps": [
+        "Web Application",
+        "Dashboard"
+      ],
+      "image": "https://example.com/ecommerce-dashboard.jpg",
+      "github": false,
+      "live": "https://airforce.mil.ng",
+      "role": "Frontend Developer",
+      "logo": "airforce"
+    },
+    {
+      "id": 2,
+      "title": "SenexPay",
+      "description": "Mobile-responsive weather application that provides real-time weather data and 7-day forecasts using OpenWeather API",
+      "stack": ["vue", "nuxt", "tailwind", "figma"],
+      "apps": [
+        "Web Application",
+        "Dashboard",
+        "Admin Portal"
+      ],
+      "image": "https://example.com/weather-app.jpg",
+      "github": false,
+      "live": "https://weather-app-demo.netlify.app",
+      "role": "Frontend",
+      "logo": "senexpay"
+    },
+    {
+      "id": 3,
+      "title": "Onboardbase",
+      "description": "RESTful API for task management with authentication, task CRUD operations, and team collaboration features",
+      "stack": [
+        "vue",
+        "tailwind"
+      ],
+      "apps": [
+        "Web Applications",
+        "Dashboard"
+      ],
+      "image": "https://example.com/task-api.jpg",
+      "github": "https://github.com/username/task-api",
+      "live": "https://task-api-docs.herokuapp.com",
+      "role": "Backend",
+      "logo": "onboardbase"
+    },
+    {
+      "id": 4,
+      "title": "Social Media Dashboard",
+      "description": "Analytics dashboard for social media metrics with customizable widgets and data visualization",
+      "stack": [
+        "Vue.js",
+        "Vuex",
+        "Firebase",
+        "D3.js",
+        "Tailwind CSS"
+      ],
+      "apps": [
+        "Web Application",
+        "Dashboard",
+        "Admin Portal"
+      ],
+      "image": "https://example.com/social-dashboard.jpg",
+      "github": "https://github.com/username/social-dashboard",
+      "live": "https://social-metrics-dashboard.web.app",
+      "role": "Frontend",
+      "logo": "senexpay"
+    },
+    {
+      "id": 5,
+      "title": "Fitness Tracker",
+      "description": "Mobile app for tracking workouts, nutrition, and fitness progress with social features",
+      "stack": [
+        "React Native",
+        "Express.js",
+        "MongoDB",
+        "Socket.io"
+      ],
+      "apps": [
+        "Web Application",
+        "Dashboard",
+        "Admin Portal"
+      ],
+      "image": "https://example.com/fitness-tracker.jpg",
+      "github": "https://github.com/username/fitness-tracker",
+      "live": "https://fitness-tracker.demo.com",
+      "role": "Mobile",
+      "logo": "senexpay"
+    },
+    {
+      "id": 6,
+      "title": "AI Image Generator",
+      "description": "Web application that generates unique images using machine learning models and allows for custom styling",
+      "stack": [
+        "Python",
+        "TensorFlow",
+        "Flask",
+        "React",
+        "AWS"
+      ],
+      "apps": [
+        "Web Application",
+        "Dashboard",
+        "Admin Portal"
+      ],
+      "image": "https://example.com/ai-image-gen.jpg",
+      "github": "https://github.com/username/ai-image-generator",
+      "live": "https://ai-image-gen-demo.com",
+      "role": "Machine Learning",
+      "logo": "senexpay"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
-<script setup>
+<script setup lang="ts">
 
 </script>
 
 <template>
-    <NuxtPage />
+  <img />
 </template>
 
 <style scoped>
